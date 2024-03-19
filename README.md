@@ -4,9 +4,9 @@ This repository contains validation results of the Human Liver Microsomal Stabil
 
 - **T1 Model bias** (i.e. models giving very high values or low values): Running predictions for a list of 1000 diverse molecules and plotting the results in a scatter plot.
 
-- ** T2 Reproducibility:** Check whether we are able to reproduce the exact values / a figure / that authors obtained when training the model in the first place? This means reading the publication and identifying for example a compound identified using that model and checking that we obtain the same values.
+- **T2 Reproducibility:** Check whether we are able to reproduce the exact values / a figure / that authors obtained when training the model in the first place? This means reading the publication and identifying for example a compound identified using that model and checking that we obtain the same values.
 
-- ** T3 Performance:** Check whether we can get the model to give accurate results in external datasets? This is more time consuming and will be done by identifying a public dataset that has not been used in model training, and running predictions to build AUROC curves - to simplify reports, we will only focus on AUROC or R2 as metrics now.
+- **T3 Performance:** Check whether we can get the model to give accurate results in external datasets? This is more time consuming and will be done by identifying a public dataset that has not been used in model training, and running predictions to build AUROC curves - to simplify reports, we will only focus on AUROC or R2 as metrics now.
 
 
 ## About the Model
